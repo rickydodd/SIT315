@@ -7,8 +7,8 @@ This repository contains the code-related task work that I have completed for SI
 A simple Arduino program that was designed with, and abides by, the sense-think-act paradigm.
 
 #### What did I learn from creating this program?
-It can be helpful to think about an embedded system in terms of "sense," "think," and act, considering the components
-in terms of sensors and actuators with an intermediate thoughtfulness phase between the sensation and an action.
+It can be helpful to think about an embedded system in terms of "sense," "think," and "act," considering the components
+in terms of sensors and actuators with an intermediary phase of "thinking"/computation.
 
 ### [/Module1/Task1.2P.cpp](/Module1/Task1.2P.cpp)
 An interrupt-driven Arduino program. When motion is detected by the motion sensor (an external interrupt occurs),
@@ -30,10 +30,10 @@ Arduino program that is interrupt-driven and handles two sensors deemed critical
 
 ### [/Module1/Task1.4D.cpp](/Module1/Task1.4D.cpp)
 I modified the interrupt-driven Arduino program to make use of bitwise operations; an interrupt timer that switches the on-board LED
-on, and then off, every 1MHz (1 second); and a pin change interrupt to allow for additional interrupts beyond those supported by
+on every 1MHz (1 second), followed by turning off every 1MHz; and a pin change interrupt to allow for additional interrupts beyond those supported by
 external interrupts.
 
 #### What did I learn from creating this program?
 Reading documentation is vitally important. Once you leave the domain of what you know, documentation becomes more and more vital,
-and this rings especially true for lower-level programming where specific registers have very defined purposes, and their
-binary contents have a meaning defined by their microarchitecture.
+and this rings especially true for lower-level programming where specific registers have very defined purposes (defined and facilitated by their microarchitecture),
+and these register's binary "contents" have a meaning defined by their microarchitecture.
