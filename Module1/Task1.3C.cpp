@@ -30,9 +30,7 @@ void setup()
 }
 
 void loop()
-{
-  delay(500);
-}
+{}
 
 // motion sensor interrupt handler
 void handleMotionSensor()
