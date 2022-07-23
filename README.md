@@ -34,6 +34,6 @@ on every 1MHz (1 second), followed by turning off every 1MHz; and a pin change i
 external interrupts.
 
 #### What did I learn from creating this program?
-Reading documentation is vitally important. Once you leave the domain of what you know, documentation becomes more and more vital,
-and this rings especially true for lower-level programming where specific registers have very defined purposes (defined and facilitated by their microarchitecture),
-and these register's binary "contents" have a meaning defined by their microarchitecture.
+Reading documentation is important. Once you leave the domain of what you know, documentation becomes more important;
+this rings especially true for lower-level programming where specific registers have very defined purposes (defined and facilitated by their microarchitecture),
+where the binary "contents" of a register can have a specific and defined effect (or even effect other functionalities provided by the microprocessor inadvertently).
