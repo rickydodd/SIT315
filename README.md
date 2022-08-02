@@ -37,3 +37,11 @@ external interrupts.
 Reading documentation is important. Once you leave the domain of what you know, documentation becomes more important;
 this rings especially true for lower-level programming where specific registers have very defined purposes (defined and facilitated by their microarchitecture),
 where the binary "contents" of a register can have a specific and defined effect (or even effect other functionalities provided by the microprocessor inadvertently).
+
+### [/Module2/Naive_Parallel_Matrix_Multiplication/](/Module2/Naive_Parallel_Matrix_Multiplication/)
+I created a naive sequential matrix multiplication program, then a naive parallelised matrix multiplication program using pthreads, and then a parallelised matrix multiplication program using [https://www.openmp.org/](OpenMP).
+
+#### What did I learn from creating these programs?
+- How to decompose and parallelise a single instruction, multiple data problem.
+- In the pthreads implementation, I learnt that structs can be an effective data structure for passing values to a thread, especially if I declare said struct on the heap and avoid mutating it to get the necessary data to the respective thread.
+- In the OpenMP implementation, I learnt that the OpenMP API can parallelise some problems very easily with the use of compiler directives that provide the compiler with sufficient information for it to make more optimal choices (such as denoting to the compiler which variables should be treated as private per thread, and which should be treated as shared across threads).
