@@ -39,7 +39,7 @@ this rings especially true for lower-level programming where specific registers 
 where the binary "contents" of a register can have a specific and defined effect (or even effect other functionalities provided by the microprocessor inadvertently).
 
 ### [/Module2/Naive_Parallel_Matrix_Multiplication/](/Module2/Naive_Parallel_Matrix_Multiplication/)
-I created a naive sequential matrix multiplication program, then a naive parallelised matrix multiplication program using pthreads, and then a parallelised matrix multiplication program using [https://www.openmp.org/](OpenMP).
+I created a naive sequential matrix multiplication program, then a naive parallelised matrix multiplication program using pthreads, and then a parallelised matrix multiplication program using [OpenMP](https://www.openmp.org/).
 
 #### What did I learn from creating these programs?
 - How to decompose and parallelise a single instruction, multiple data problem.
